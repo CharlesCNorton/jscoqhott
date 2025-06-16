@@ -47,6 +47,6 @@ Print Coo.
 ```
 
 This can be achieved by compiling `theories/CooLib.v` with the
-[jsCoq SDK](https://github.com/jscoq/jscoq/blob/v8.16/docs/authoring.md) and packaging it as a `.coq-pkg` using the jsCoq CLI.
+[jsCoq SDK](https://github.com/jscoq/jscoq/blob/v9.0/docs/authoring.md) and packaging it as a `.coq-pkg` using the jsCoq CLI.
 
 See how it is done in this tutorial's `Makefile` (targets `%.vo` and `floc.coq-pkg`).

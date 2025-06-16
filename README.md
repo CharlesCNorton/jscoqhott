@@ -7,7 +7,7 @@ jsCoq is an Online Integrated Development Environment for the
 [Coq](https://coq.inria.fr) proof assistant and runs in your browser!
 We aim to enable new UI/interaction possibilities and to improve the
 accessibility of the Coq platform itself. Current stable version is
-jsCoq 0.14.1 supporting Coq 8.14.1, try it:
+jsCoq 0.16.0 supporting Rocq 9.0 with HoTT 9.0, try it:
 
 <https://jscoq.github.io>
 
@@ -77,10 +77,21 @@ options and jsCoq HTML embedding API. A quick setup can be done with:
 $ npm install jscoq
 ```
 
-then copy and adapt the [template page](https://github.com/ejgallego/jscoq/blob/v8.14/examples/npm-template.html)
+then copy and adapt the [template page](https://github.com/ejgallego/jscoq/blob/v9.0/examples/npm-template.html)
 page to your needs.
 
 *For a more detailed tutorial and information, refer to* [docs/embedding.md](docs/embedding.md).
+
+## Docker
+
+Build and run jsCoq in an isolated container:
+
+```bash
+docker build -t jscoq .
+docker run -p 8080:8080 jscoq
+```
+
+Then open <http://localhost:8080> in your browser.
 
 ##  Contributing and Developer Information
 

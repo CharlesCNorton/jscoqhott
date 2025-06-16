@@ -1,7 +1,7 @@
 # jsCoq 0.16.0 "Plugin or not plugin"
 -------------------------------------
 
- - Update to Coq 8.16.0 (@corwin-of-amber, @ejgallego)
+ - Update to Rocq 9.0.0 and HoTT 9.0 (@corwin-of-amber, @ejgallego)
  - Now Coq loads plugins with using findlib
 
 # jsCoq 0.15.1 "Go For Your Toad, or Similar"
